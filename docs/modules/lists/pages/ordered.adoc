@@ -186,7 +186,7 @@ a|
 ^[2]^ Default numeration if block style is not specified
 
 TIP: Custom numeration styles can be implemented using a custom role.
-Define a new class selector (e.g., `.custom`) in your stylesheet that sets the `list-style-type` property to the value of your choice.
+Define a new class selector (e.g., `.custom`) in your stylesheet that sets the https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type[`list-style-type`] property to the value of your choice.
 Then, assign the name of that class as a role on any list to which you want that numeration applied.
 
 When the role shorthand (`.custom`) is used on an ordered list, the numeration style is no longer omitted.
